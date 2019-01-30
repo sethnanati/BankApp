@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ubank.bankagent">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.AboutUS" />
+        <activity android:name=".Activities.CashOut" />
+        <activity android:name=".Activities.CashIn" />
+        <activity android:name=".Activities.Onboard" />
+        <activity android:name=".Activities.Enquiries" />
+        <activity android:name=".Activities.BalanceActivity" />
+        <activity android:name=".Activities.ContactUs" />
+        <activity android:name=".Activities.Faq" />
+        <activity
+            android:name=".AppIntroSlider.MyIntro"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".Activities.LoginActivity" />
+        <activity android:name=".Activities.DashboardActivity" />
+        <activity
+            android:name=".Activities.SignUp"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

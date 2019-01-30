@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_balance"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Balance" />
+        <item
+            android:id="@+id/nav_onboarding"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Onboarding" />
+
+        <group>
+        <item
+            android:id="@+id/nav_cashin"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Send Money" />
+
+        <item
+            android:id="@+id/nav_cashout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Cash-Out" />
+        </group>
+
+        <item
+            android:id="@+id/nav_transreview"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Transaction_History" />
+        <item
+            android:id="@+id/nav_onboarding_hist"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Onboarding History" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@drawable/ic_menu_send"
+                android:title="FAQ" />
+        </menu>
+    </item>
+
+</menu>
